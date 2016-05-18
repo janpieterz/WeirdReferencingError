@@ -12,6 +12,9 @@ using Microsoft.Extensions.Logging;
 using WeirdReferencingError.Data;
 using WeirdReferencingError.Models;
 using SimpleLibrary;
+using SimpleCoreLibrary;
+using ComplexCoreLibrary;
+
 namespace WeirdReferencingError
 {
     public class Startup
@@ -34,6 +37,8 @@ namespace WeirdReferencingError
 
             SimpleTest test = new SimpleTest();
             ComplexLibrary.ComplextTest test2 = new ComplexLibrary.ComplextTest();
+            CoreSimpleTest test3 = new CoreSimpleTest();
+            ComplexTestingClass test4 = new ComplexTestingClass();            
         }
 
         public IConfigurationRoot Configuration { get; }
