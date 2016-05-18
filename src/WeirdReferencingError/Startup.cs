@@ -14,6 +14,8 @@ using WeirdReferencingError.Models;
 using SimpleLibrary;
 using SimpleCoreLibrary;
 using ComplexCoreLibrary;
+using ComplexLibrary;
+using WeirdReferencingError.Services;
 
 namespace WeirdReferencingError
 {
@@ -36,7 +38,7 @@ namespace WeirdReferencingError
             Configuration = builder.Build();
 
             SimpleTest test = new SimpleTest();
-            ComplexLibrary.ComplextTest test2 = new ComplexLibrary.ComplextTest();
+            ComplexTest test2 = new ComplexTest();            
             CoreSimpleTest test3 = new CoreSimpleTest();
             ComplexTestingClass test4 = new ComplexTestingClass();            
         }

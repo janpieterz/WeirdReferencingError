@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "exports": {
+    "ComplexLibrary/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5",
+      "compile": {
+        "bin/Debug/ComplexLibrary.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/ComplexLibrary.dll": {}
+      }
+    },
+    "SimpleLibrary/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5",
+      "compile": {
+        "bin/Debug/SimpleLibrary.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/SimpleLibrary.dll": {}
+      }
+    }
+  }
+}

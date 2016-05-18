@@ -70,10 +70,10 @@
   "frameworks": {
     "net451": {
       "dependencies": {
-        "SimpleLibrary": {
+        "ComplexLibrary": {
           "target": "project"
         },
-        "Testing.ComplexLibrary": {
+        "SimpleLibrary": {
           "target": "project"
         }
       }
